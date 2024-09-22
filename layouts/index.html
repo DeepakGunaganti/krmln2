@@ -12,17 +12,17 @@
 <body>
     <header>
         <nav>
-            <h1 class="hed">KRMLN</h1>
+            <h1 class="hed" style="color: white;">KRMLN</h1>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#services-section">Services</a></li>
+                <li><a href="#contactsection">Contact</a></li>
             </ul>
         </nav>
     </header>
     
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="hero-content">
           <h1>Better Solutions For Your Business</h1>
           <p>We are a team of talented designers making websites with Bootstrap</p>
@@ -36,6 +36,166 @@
         </div>
       </section>
 
+      <section id="about-us" class="about-us-section">
+        <div class="container">
+          <h2 class="about">About Us</h2>
+          <hr class="title-underline" />
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <ul class="about-list">
+                <li><i class="check-icon"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="check-icon"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="check-icon"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              </ul>
+              
+            </div>
+            <div class="col-md-6">
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <a href="#" class="read-more-btn">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <section class="dropdowns-section" id="dropdowns-section" style="background-color: #2d4464;">
+      <div class="container1">
+        <div class="content">
+          <h2>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit.</p>
+    
+          <!-- Accordion Section -->
+          <div class="accordion">
+            <!-- Accordion Item 1 -->
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                01 Non consectetur a erat nam at lectus urna duis?
+                <span class="icon">ᐳ</span>
+              </div>
+              <div class="accordion-item-body">
+                <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+              </div>
+            </div>
+    
+            <!-- Accordion Item 2 -->
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                02 Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                <span class="icon">ᐳ</span>
+              </div>
+              <div class="accordion-item-body">
+                <p>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque.</p>
+              </div>
+            </div>
+    
+            <!-- Accordion Item 3 -->
+            <div class="accordion-item">
+              <div class="accordion-item-header">
+                03 Dolor sit amet consectetur adipiscing elit pellentesque?
+                <span class="icon">ᐳ</span>
+              </div>
+              <div class="accordion-item-body">
+                <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="illustration">
+          <img src="/images/why-us.png" alt="Illustration">
+        </div>
+      </div>
+    </section>
+      
+    <section class="services-section" id="services-section" style="background-color: #2d4464; scroll-margin-top: 100px;">
+      <h2>SERVICES</h2>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <div class="services-cards">
+        <div class="service-card">
+          <i class="bi bi-activity icon">&#128266;</i>
+          <h3>Lorem Ipsum</h3>
+          <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+        </div>
+        <div class="service-card">
+          <i>&#128736;</i>
+          <h3>Sed ut perspici</h3>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+        </div>
+        <div class="service-card">
+          <i>&#128197;</i>
+          <h3>Magni Dolores</h3>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+        </div>
+        <div class="service-card">
+          <i>&#128241;</i>
+          <h3>Nemo Enim</h3>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="container3" id="contactsection" style="scroll-margin-top: 100px;">
+      <h2 style="color: white;">CONTACT</h2>
+      <p style="text-align: center;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <div class="contact-section">
+        <!-- Contact Information Section -->
+        <div class="contact-info">
+          <div class="info-item">
+            <i>&#128205;</i> <!-- Location Icon -->
+            <div class="contact-sec">
+              <h4>Address</h4>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i>&#128222;</i> <!-- Phone Icon -->
+            <div class="contact-sec">
+              <h4>Call Us</h4>
+              <p>+1 5589 55488 55</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i>&#128231;</i> <!-- Email Icon -->
+            <div class="contact-sec">
+              <h4>Email Us</h4>
+              <p>info@example.com</p>
+            </div>
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12630.836916027423!2d-74.0059411!3d40.7127837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDQyJzQ2LjAiTiA3NMKwMDAnMDQuMCJX!5e0!3m2!1sen!2sus!4v1603410480247!5m2!1sen!2sus" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+    
+        <!-- Contact Form Section -->
+        <div class="contact-form" style="background-color: #2d4464;">
+          <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" rows="13" placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+      <script>
+        document.querySelectorAll('.accordion-item-header').forEach(item => {
+          item.addEventListener('click', function () {
+            const current = document.querySelector('.accordion-item.active');
+            if (current && current !== this.parentNode) {
+              current.classList.remove('active');
+            }
+            this.parentNode.classList.toggle('active');
+          });
+        });
+      </script>
+      
 </body>
 
 </html>
